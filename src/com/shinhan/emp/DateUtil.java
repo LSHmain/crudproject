@@ -10,7 +10,7 @@ public class DateUtil {
 		String str = sdf.format(d1);//날짜가 문자로
 		return str;
 	}
-	//ㅁ
+	//
 	public static Date convertToDate(String str2) {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyy-MM-dd");
 		Date d2 = null;
